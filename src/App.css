@@ -1,0 +1,55 @@
+.top {
+  min-height: 8vh;
+  /* background-color: black; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bottom {
+  min-height: 10vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.search-button:hover{
+  background-color: red;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 1vh;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
